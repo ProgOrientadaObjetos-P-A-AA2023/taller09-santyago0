@@ -131,10 +131,10 @@ public class Ejecutor {
             
             if(!continuar.equals("s")) {
                for(int i = 0; i < lista.size(); i++){
-                Prestamo prestamo = lista.get(i);
-                System.out.printf("\nPRÉSTAMO (%d):\n%s",
-                        i+1,
-                        prestamo);
+                   Prestamo prestamo = lista.get(i);
+                   System.out.printf("\nPRÉSTAMO (%d):\n%s",
+                           i+1,
+                           prestamo);
                 } 
             }
             
